@@ -1,0 +1,31 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  /*acho q tira isso*/
+  justify-content: center;
+  align-items: center;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+}
+
+.photo img {
+  max-width: 100%;
+  /* Garante que a imagem não fique maior que o contêiner */
+  height: auto;
+  /* Mantém a proporção da imagem */
+}
